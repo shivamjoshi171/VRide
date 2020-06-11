@@ -3,6 +3,7 @@ paytm.payment:
     merchantId: OGNEft73056937033493
     merchantKey: ExzpII3Zu2S#Qi6f
     channelId: WEB
+    PAYMENTMODE:UPI
     website: WEBSTAGING
     industryTypeId: Retail
     paytmUrl:  https://securegw-stage.paytm.in/order/process
@@ -10,6 +11,7 @@ paytm.payment:
     details:
       MID: ${paytm.payment.sandbox.merchantid}
       CHANNEL_ID: ${paytm.payment.sandbox.channelid}
-      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.industrytypeid}
+      PAYMENTMODE:${paytm.payment.sandbox.channelid
+      INDUSTRY_TYPE_ID: ${paytm.payment.sandbox.PAYMENTMODE}
       WEBSITE: ${paytm.payment.sandbox.website}
       CALLBACK_URL: ${paytm.payment.sandbox.callbackUrl}
